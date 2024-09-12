@@ -12,11 +12,11 @@ CREATE TABLE "User" (
 -- CreateTable
 CREATE TABLE "Barbershop" (
     "id" TEXT NOT NULL,
-    "addres" TEXT NOT NULL,
     "name" TEXT NOT NULL,
+    "addres" TEXT NOT NULL,
     "phone" TEXT[],
-    "imageUrl" TEXT NOT NULL,
     "description" TEXT NOT NULL,
+    "imageUrl" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
